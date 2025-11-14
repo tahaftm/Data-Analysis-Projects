@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime as dt
-data = pd.read_csv("C:\\Users\\USER\\Desktop\\microsoft\\module 2\\projects\Amazon Sale Report.csv", parse_dates=['Date'])
+data = pd.read_csv(r"data/Amazon Sale Report.csv", parse_dates=['Date'])
 # # Time Series: Analyze sales trends over months/years.
 # group = data.groupby(data["Date"].dt.strftime('%B'))['index'].count().reset_index().rename(columns={'Date' : 'Month', 'index' : 'Orders'})
 # plt.plot(group['Month'], group['Orders'])

@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
-movies = pd.read_csv("C:\\Users\\USER\\Desktop\\microsoft\\module 2\\projects\\netflix_titles.csv")
-
+movies = pd.read_csv(r"data/netflix_titles.csv")
 # groups = movies.groupby([movies['type'],movies['rating']])['show_id'].size()
 # fig, ax = plt.subplots()
 # ax.boxplot(groups)
